@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenieClim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Navigation -->
+   <header>
+     <nav>
+        <div class="logo">
+            <img src="./images/WechatIMG1948.jpg" alt="logo de GenieClim">
+        </div>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Slider -->
+    <section class="slider" id="slider">
+        <div class="slider_nav">
+            <button onclick="previous()" class="slider_nav_button">Précédent</button>
+            <button onclick="next()" class="slider_nav_button">Suivant</button>
+        </div>
+
+        <div class="slider_inner">
+            <div class="slide"><img src="./images/1.jpeg" alt="Image 1"></div>
+            <div class="slide"><img src="./images/2.jpeg" alt="Image 2"></div>
+            <div class="slide"><img src="./images/3.jpeg" alt="Image 3"></div>
+            <div class="slide"><img src="./images/4.jpeg" alt="Image 4"></div>
+            <div class="slide"><img src="./images/5.jpeg" alt="Image 5"></div>
+        </div>
+
+        <div class="slider_indicators">
+            <div class="slider_indicator active"></div>
+            <div class="slider_indicator"></div>
+            <div class="slider_indicator"></div>
+            <div class="slider_indicator"></div>
+            <div class="slider_indicator"></div>
+        </div>
+    </section>
+
+    <!-- Lien vers le fichier JS -->
+    <script src="script.js"></script>
+</body>
+</html>
